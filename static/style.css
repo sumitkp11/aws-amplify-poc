@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <!-- <link rel="stylesheet" href="/static/style.css"> -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amplify-POC</title>
-    <style>
-        html,
+html,
       body {
         font-family: 'Amazon Ember', 'Helvetica', 'sans-serif';
         margin: 0;
@@ -51,28 +42,3 @@
       .app-body button:hover {
         opacity: 0.8;
       }
-    </style>
-</head>
-<body>
-    <div class="app">
-        <div class="app-header">
-            <h1>Welcome to Amplify</h1>
-        </div>
-        <div class="app-body">
-            <h1>Mutation Results</h1>
-            <button id="MutationEventButton">Add data</button>
-            <div id="MutationResult"></div>
-            <hr/>
-
-            <h1>Query Results</h1>
-            <div id="QueryResult"></div>
-            <hr/>
-
-            <h1>Subscription Results</h1>
-            <div id="SubscriptionResult"></div>
-        </div>
-    </div>
-    <script src="main.bundle.js"></script>
-    
-</body>
-</html>
